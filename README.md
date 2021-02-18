@@ -1,7 +1,7 @@
 # troubleshoot-lwc
 Base Lightning Web Components Trailhead Troubleshooting Lightning Web Components 
 
-## Download The Componets 
+## Download The Components 
 In this module, you use Visual Studio Code (VS Code) to edit code. Open VS Code and clone this GitHub repo.
 
 1. In VS Code, open the Command Palette by pressing **Ctrl+Shift+P** (Windows) or **Cmd+Shift+P** (macOS).
@@ -33,7 +33,7 @@ This opens the Salesforce login in a separate browser window.
 6. Log in using your Trailhead Playground credentials.
 If prompted to allow access, click **Allow**.
 
-## Push to Playground
+## Deploy to Playground
 
 1. Right-click the **default** folder under force-app/main.
 2. Click **SFDX: Deploy Source to Org**.
