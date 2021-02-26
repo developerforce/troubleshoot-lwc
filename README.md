@@ -1,37 +1,35 @@
 # troubleshoot-lwc
-Base Lightning Web Components Trailhead Troubleshooting Lightning Web Components 
+Download Components for the Troubleshooting Lightning Web Components Trailhead Badge
 
-## Download The Components 
-In this module, you use Visual Studio Code (VS Code) to edit code. Open VS Code and clone this GitHub repo.
+## Open VS Code and clone this GitHub repo.
 
 1. In VS Code, open the Command Palette by pressing **Ctrl+Shift+P** (Windows) or **Cmd+Shift+P** (macOS).
 2. Enter `git`.
 3. Select **Git: Clone**. 
-4. Enter `https://github.com/developerforce/troubleshoot-lwc.git` and press **Enter**.
+4. Enter `https://github.com/developerforce/troubleshoot-lwc.git` and press Enter.
 5. Select **Desktop** then click **Select Repository Location**.
 
 ## Create DX Project
 
-1. Open the Command Palette
+1. Open the Command Palette.
 2. Enter `sfdx`.
 3. Select **SFDX: Create Project**. 
 4. Select **Standard**.
-5. Enter `troubleshoot-lwc` as the project name.
-6. Press **Enter**.
-7. Select **Desktop** for folder to store the project.
-8. Click **Create Project**.
-9. Click **Overwrite**.
+5. Enter `troubleshoot-lwc` as the project name and press Enter.
+6. Select **Desktop** for folder to store the project.
+7. Click **Create Project**.
+8. Click **Overwrite**.
 
 ## Authorize Your Trailhead Playground
 
-1. Open the Command Palette
-2. Eenter `sfdx`.
+1. Open the Command Palette.
+2. Enter `sfdx`.
 3. Select **SFDX: Authorize an Org**.
 4. Press **Enter** to accept the Project Default login URL option.
 5. Press **Enter** to accept the default alias.
-This opens the Salesforce login in a separate browser window.
+Salesforce login opens in a separate browser window.
 6. Log in using your Trailhead Playground credentials.
-If prompted to allow access, click **Allow**.
+7. If you're prompted to allow access, click **Allow**.
 
 ## Deploy to Playground
 
@@ -40,8 +38,8 @@ If prompted to allow access, click **Allow**.
 
 ## Assign Permission Set
 
-1. Click **View**, then select **Terminal**. This opens a terminal window inside Visual Studio Code. The terminal defaults to the top-level directory of the project.
-2. Run this command in a terminal to assign the Solutions Full Access permission set to the default user.
+1. Click **View**, then select **Terminal**. A terminal window opens in Visual Studio Code. The terminal defaults to the top-level directory of the project.
+2. Assign the Solutions Full Access permission set to the default user by running this command in the terminal:
 ```
 sfdx force:user:permset:assign -n Solutions_Full_Access
 ```
