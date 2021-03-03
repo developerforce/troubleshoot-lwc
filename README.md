@@ -25,7 +25,7 @@ In this module, you use Visual Studio Code (VS Code) to edit code. Open VS Code 
 ## Authorize Your Trailhead Playground
 
 1. Open the Command Palette
-2. Eenter `sfdx`.
+2. Enter `sfdx`.
 3. Select **SFDX: Authorize an Org**.
 4. Press **Enter** to accept the Project Default login URL option.
 5. Press **Enter** to accept the default alias.
