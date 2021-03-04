@@ -7,7 +7,7 @@ Download Components for the Troubleshooting Lightning Web Components Trailhead B
 2. Enter `git`.
 3. Select **Git: Clone**. 
 4. Enter `https://github.com/developerforce/troubleshoot-lwc.git` and press Enter.
-5. Select **Desktop** then click **Select Repository Location**.
+5. Select **Desktop** and then click **Select Repository Location**.
 
 ## Create DX Project
 
@@ -38,7 +38,7 @@ Salesforce login opens in a separate browser window.
 
 ## Assign Permission Set
 
-1. Click **View**, then select **Terminal**. A terminal window opens in Visual Studio Code. The terminal defaults to the top-level directory of the project.
+1. Click **View**, and then select **Terminal**. A terminal window opens in Visual Studio Code. The terminal defaults to the top-level directory of the project.
 2. Assign the Solutions Full Access permission set to the default user by running this command in the terminal:
 ```
 sfdx force:user:permset:assign -n Solutions_Full_Access
@@ -46,5 +46,5 @@ sfdx force:user:permset:assign -n Solutions_Full_Access
 
 ## View the Solutions App
 
-1. In your Playground, In App Launcher, search for `sol`.
+1. In your Trailhead Playground, in App Launcher, search for `sol`.
 2. Select **Solutions**.
