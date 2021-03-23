@@ -6,7 +6,7 @@ Download Components for the Troubleshooting Lightning Web Components Trailhead B
 1. In VS Code, open the Command Palette by pressing **Ctrl+Shift+P** (Windows) or **Cmd+Shift+P** (macOS).
 2. Enter `git`.
 3. Select **Git: Clone**. 
-4. Enter `https://github.com/developerforce/troubleshoot-lwc.git` and press Enter.
+4. Enter `https://github.com/developerforce/troubleshoot-lwc.git` and press **Enter**.
 5. Select **Desktop** and then click **Select Repository Location**.
 
 ## Create DX Project
@@ -15,7 +15,7 @@ Download Components for the Troubleshooting Lightning Web Components Trailhead B
 2. Enter `sfdx`.
 3. Select **SFDX: Create Project**. 
 4. Select **Standard**.
-5. Enter `troubleshoot-lwc` as the project name and press Enter.
+5. Enter `troubleshoot-lwc` as the project name and press **Enter**.
 6. Select **Desktop** for folder to store the project.
 7. Click **Create Project**.
 8. Click **Overwrite**.
