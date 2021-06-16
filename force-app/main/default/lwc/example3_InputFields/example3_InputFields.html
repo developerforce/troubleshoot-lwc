@@ -1,0 +1,44 @@
+<template>
+  <lightning-layout horizontal-align="center">
+    <lightning-layout-item size="4">
+      <div class="slds-box slds-theme_default">
+        <div class="slds-text-heading_small slds-text-align_center  " >
+          <div class="slds-var-m-around_medium">
+            <h2>Input #1</h2>
+            <label>
+              <span>Type here:</span>
+              <input
+                class="slow-typing slds-var-p-around_small slds-var-p-vertical_xxx-small"
+                type="text"
+                placeholder="Type some text"
+                oninput={onSlowInput}
+              />
+              <div class="characters slow">
+                Characters: {numCharsSlow}
+              </div>
+            </label>
+          </div>
+          <!--
+          <hr ></hr>
+          -->
+          <div class="slds-var-m-around_medium">
+            <h2>Input #2</h2>
+            <label>
+              <span>Type here:</span>
+              <input
+                class="fast-typing slds-var-p-around_small slds-var-p-vertical_xxx-small"
+                type="text"
+                placeholder="Type some text"
+                oninput={onFastInput}
+              />
+              <div class="characters fast">
+                Characters: {numCharsFast}
+              </div>
+            </label>
+          </div>
+          <div class="thrashy" lwc:dom="manual"></div>
+        </div>              
+      </div>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>

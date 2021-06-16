@@ -1,0 +1,872 @@
+.input-wrapper {
+  padding: 40px 0;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+label span {
+  padding-right: 20px;
+}
+
+.characters {
+  padding-left: 20px;
+  font-size: 0.7em;
+  color: #666;
+}
+
+.thrashy {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.thrashy :nth-child(1) {
+  width: 566px;
+  height: 180px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 884px;
+  height: 10px;
+}
+
+.thrashy :nth-child(1) :nth-child(1) {
+  width: 583px;
+  height: 5px;
+}
+
+.thrashy :nth-child(1) :nth-child(1) * {
+  width: 437px;
+  height: 73px;
+}
+
+.thrashy :nth-child(1) {
+  width: 317px;
+  height: 141px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 143px;
+  height: 124px;
+}
+
+.thrashy :nth-child(1) :nth-child(2) {
+  width: 715px;
+  height: 181px;
+}
+
+.thrashy :nth-child(1) :nth-child(2) * {
+  width: 701px;
+  height: 9px;
+}
+
+.thrashy :nth-child(1) {
+  width: 692px;
+  height: 145px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 430px;
+  height: 2px;
+}
+
+.thrashy :nth-child(1) :nth-child(3) {
+  width: 291px;
+  height: 198px;
+}
+
+.thrashy :nth-child(1) :nth-child(3) * {
+  width: 274px;
+  height: 112px;
+}
+
+.thrashy :nth-child(1) {
+  width: 237px;
+  height: 10px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 919px;
+  height: 24px;
+}
+
+.thrashy :nth-child(1) :nth-child(4) {
+  width: 818px;
+  height: 118px;
+}
+
+.thrashy :nth-child(1) :nth-child(4) * {
+  width: 740px;
+  height: 7px;
+}
+
+.thrashy :nth-child(1) {
+  width: 708px;
+  height: 115px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 427px;
+  height: 63px;
+}
+
+.thrashy :nth-child(1) :nth-child(5) {
+  width: 505px;
+  height: 10px;
+}
+
+.thrashy :nth-child(1) :nth-child(5) * {
+  width: 117px;
+  height: 132px;
+}
+
+.thrashy :nth-child(1) {
+  width: 685px;
+  height: 61px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 598px;
+  height: 68px;
+}
+
+.thrashy :nth-child(1) :nth-child(6) {
+  width: 924px;
+  height: 194px;
+}
+
+.thrashy :nth-child(1) :nth-child(6) * {
+  width: 532px;
+  height: 189px;
+}
+
+.thrashy :nth-child(1) {
+  width: 150px;
+  height: 45px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 88px;
+  height: 105px;
+}
+
+.thrashy :nth-child(1) :nth-child(7) {
+  width: 138px;
+  height: 64px;
+}
+
+.thrashy :nth-child(1) :nth-child(7) * {
+  width: 109px;
+  height: 185px;
+}
+
+.thrashy :nth-child(1) {
+  width: 280px;
+  height: 103px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 607px;
+  height: 113px;
+}
+
+.thrashy :nth-child(1) :nth-child(8) {
+  width: 912px;
+  height: 75px;
+}
+
+.thrashy :nth-child(1) :nth-child(8) * {
+  width: 899px;
+  height: 163px;
+}
+
+.thrashy :nth-child(1) {
+  width: 823px;
+  height: 42px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 307px;
+  height: 148px;
+}
+
+.thrashy :nth-child(1) :nth-child(9) {
+  width: 471px;
+  height: 159px;
+}
+
+.thrashy :nth-child(1) :nth-child(9) * {
+  width: 908px;
+  height: 97px;
+}
+
+.thrashy :nth-child(1) {
+  width: 92px;
+  height: 75px;
+}
+
+.thrashy :nth-child(1) * {
+  width: 663px;
+  height: 160px;
+}
+
+.thrashy :nth-child(1) :nth-child(10) {
+  width: 116px;
+  height: 181px;
+}
+
+.thrashy :nth-child(1) :nth-child(10) * {
+  width: 660px;
+  height: 18px;
+}
+
+.thrashy :nth-child(2) {
+  width: 60px;
+  height: 124px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 86px;
+  height: 137px;
+}
+
+.thrashy :nth-child(2) :nth-child(1) {
+  width: 998px;
+  height: 98px;
+}
+
+.thrashy :nth-child(2) :nth-child(1) * {
+  width: 552px;
+  height: 71px;
+}
+
+.thrashy :nth-child(2) {
+  width: 725px;
+  height: 94px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 23px;
+  height: 39px;
+}
+
+.thrashy :nth-child(2) :nth-child(2) {
+  width: 851px;
+  height: 52px;
+}
+
+.thrashy :nth-child(2) :nth-child(2) * {
+  width: 977px;
+  height: 84px;
+}
+
+.thrashy :nth-child(2) {
+  width: 402px;
+  height: 121px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 832px;
+  height: 26px;
+}
+
+.thrashy :nth-child(2) :nth-child(3) {
+  width: 187px;
+  height: 152px;
+}
+
+.thrashy :nth-child(2) :nth-child(3) * {
+  width: 89px;
+  height: 16px;
+}
+
+.thrashy :nth-child(2) {
+  width: 447px;
+  height: 98px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 55px;
+  height: 76px;
+}
+
+.thrashy :nth-child(2) :nth-child(4) {
+  width: 360px;
+  height: 74px;
+}
+
+.thrashy :nth-child(2) :nth-child(4) * {
+  width: 481px;
+  height: 52px;
+}
+
+.thrashy :nth-child(2) {
+  width: 359px;
+  height: 46px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 650px;
+  height: 167px;
+}
+
+.thrashy :nth-child(2) :nth-child(5) {
+  width: 998px;
+  height: 114px;
+}
+
+.thrashy :nth-child(2) :nth-child(5) * {
+  width: 626px;
+  height: 183px;
+}
+
+.thrashy :nth-child(2) {
+  width: 551px;
+  height: 144px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 482px;
+  height: 28px;
+}
+
+.thrashy :nth-child(2) :nth-child(6) {
+  width: 864px;
+  height: 106px;
+}
+
+.thrashy :nth-child(2) :nth-child(6) * {
+  width: 775px;
+  height: 88px;
+}
+
+.thrashy :nth-child(2) {
+  width: 99px;
+  height: 137px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 140px;
+  height: 126px;
+}
+
+.thrashy :nth-child(2) :nth-child(7) {
+  width: 214px;
+  height: 58px;
+}
+
+.thrashy :nth-child(2) :nth-child(7) * {
+  width: 988px;
+  height: 136px;
+}
+
+.thrashy :nth-child(2) {
+  width: 167px;
+  height: 118px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 168px;
+  height: 7px;
+}
+
+.thrashy :nth-child(2) :nth-child(8) {
+  width: 722px;
+  height: 133px;
+}
+
+.thrashy :nth-child(2) :nth-child(8) * {
+  width: 115px;
+  height: 16px;
+}
+
+.thrashy :nth-child(2) {
+  width: 859px;
+  height: 19px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 576px;
+  height: 137px;
+}
+
+.thrashy :nth-child(2) :nth-child(9) {
+  width: 53px;
+  height: 53px;
+}
+
+.thrashy :nth-child(2) :nth-child(9) * {
+  width: 760px;
+  height: 28px;
+}
+
+.thrashy :nth-child(2) {
+  width: 662px;
+  height: 160px;
+}
+
+.thrashy :nth-child(2) * {
+  width: 473px;
+  height: 169px;
+}
+
+.thrashy :nth-child(2) :nth-child(10) {
+  width: 176px;
+  height: 40px;
+}
+
+.thrashy :nth-child(2) :nth-child(10) * {
+  width: 879px;
+  height: 39px;
+}
+
+.thrashy :nth-child(3) {
+  width: 638px;
+  height: 6px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 146px;
+  height: 173px;
+}
+
+.thrashy :nth-child(3) :nth-child(1) {
+  width: 994px;
+  height: 172px;
+}
+
+.thrashy :nth-child(3) :nth-child(1) * {
+  width: 374px;
+  height: 8px;
+}
+
+.thrashy :nth-child(3) {
+  width: 814px;
+  height: 97px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 629px;
+  height: 199px;
+}
+
+.thrashy :nth-child(3) :nth-child(2) {
+  width: 20px;
+  height: 8px;
+}
+
+.thrashy :nth-child(3) :nth-child(2) * {
+  width: 160px;
+  height: 62px;
+}
+
+.thrashy :nth-child(3) {
+  width: 1px;
+  height: 104px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 953px;
+  height: 65px;
+}
+
+.thrashy :nth-child(3) :nth-child(3) {
+  width: 455px;
+  height: 136px;
+}
+
+.thrashy :nth-child(3) :nth-child(3) * {
+  width: 438px;
+  height: 152px;
+}
+
+.thrashy :nth-child(3) {
+  width: 997px;
+  height: 99px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 267px;
+  height: 105px;
+}
+
+.thrashy :nth-child(3) :nth-child(4) {
+  width: 68px;
+  height: 37px;
+}
+
+.thrashy :nth-child(3) :nth-child(4) * {
+  width: 479px;
+  height: 142px;
+}
+
+.thrashy :nth-child(3) {
+  width: 319px;
+  height: 105px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 532px;
+  height: 106px;
+}
+
+.thrashy :nth-child(3) :nth-child(5) {
+  width: 897px;
+  height: 144px;
+}
+
+.thrashy :nth-child(3) :nth-child(5) * {
+  width: 586px;
+  height: 124px;
+}
+
+.thrashy :nth-child(3) {
+  width: 971px;
+  height: 6px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 89px;
+  height: 56px;
+}
+
+.thrashy :nth-child(3) :nth-child(6) {
+  width: 770px;
+  height: 144px;
+}
+
+.thrashy :nth-child(3) :nth-child(6) * {
+  width: 234px;
+  height: 79px;
+}
+
+.thrashy :nth-child(3) {
+  width: 570px;
+  height: 91px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 76px;
+  height: 131px;
+}
+
+.thrashy :nth-child(3) :nth-child(7) {
+  width: 31px;
+  height: 147px;
+}
+
+.thrashy :nth-child(3) :nth-child(7) * {
+  width: 638px;
+  height: 73px;
+}
+
+.thrashy :nth-child(3) {
+  width: 478px;
+  height: 66px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 822px;
+  height: 92px;
+}
+
+.thrashy :nth-child(3) :nth-child(8) {
+  width: 532px;
+  height: 41px;
+}
+
+.thrashy :nth-child(3) :nth-child(8) * {
+  width: 904px;
+  height: 164px;
+}
+
+.thrashy :nth-child(3) {
+  width: 805px;
+  height: 137px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 876px;
+  height: 37px;
+}
+
+.thrashy :nth-child(3) :nth-child(9) {
+  width: 924px;
+  height: 55px;
+}
+
+.thrashy :nth-child(3) :nth-child(9) * {
+  width: 81px;
+  height: 52px;
+}
+
+.thrashy :nth-child(3) {
+  width: 441px;
+  height: 81px;
+}
+
+.thrashy :nth-child(3) * {
+  width: 942px;
+  height: 184px;
+}
+
+.thrashy :nth-child(3) :nth-child(10) {
+  width: 720px;
+  height: 20px;
+}
+
+.thrashy :nth-child(3) :nth-child(10) * {
+  width: 736px;
+  height: 30px;
+}
+
+.thrashy :nth-child(4) {
+  width: 348px;
+  height: 179px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 682px;
+  height: 29px;
+}
+
+.thrashy :nth-child(4) :nth-child(1) {
+  width: 462px;
+  height: 199px;
+}
+
+.thrashy :nth-child(4) :nth-child(1) * {
+  width: 906px;
+  height: 1px;
+}
+
+.thrashy :nth-child(4) {
+  width: 243px;
+  height: 22px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 884px;
+  height: 11px;
+}
+
+.thrashy :nth-child(4) :nth-child(2) {
+  width: 366px;
+  height: 173px;
+}
+
+.thrashy :nth-child(4) :nth-child(2) * {
+  width: 720px;
+  height: 28px;
+}
+
+.thrashy :nth-child(4) {
+  width: 119px;
+  height: 146px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 6px;
+  height: 153px;
+}
+
+.thrashy :nth-child(4) :nth-child(3) {
+  width: 223px;
+  height: 142px;
+}
+
+.thrashy :nth-child(4) :nth-child(3) * {
+  width: 254px;
+  height: 128px;
+}
+
+.thrashy :nth-child(4) {
+  width: 10px;
+  height: 38px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 252px;
+  height: 176px;
+}
+
+.thrashy :nth-child(4) :nth-child(4) {
+  width: 617px;
+  height: 115px;
+}
+
+.thrashy :nth-child(4) :nth-child(4) * {
+  width: 232px;
+  height: 141px;
+}
+
+.thrashy :nth-child(4) {
+  width: 666px;
+  height: 28px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 497px;
+  height: 98px;
+}
+
+.thrashy :nth-child(4) :nth-child(5) {
+  width: 986px;
+  height: 1px;
+}
+
+.thrashy :nth-child(4) :nth-child(5) * {
+  width: 490px;
+  height: 1px;
+}
+
+.thrashy :nth-child(4) {
+  width: 753px;
+  height: 94px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 345px;
+  height: 109px;
+}
+
+.thrashy :nth-child(4) :nth-child(6) {
+  width: 323px;
+  height: 122px;
+}
+
+.thrashy :nth-child(4) :nth-child(6) * {
+  width: 662px;
+  height: 3px;
+}
+
+.thrashy :nth-child(4) {
+  width: 243px;
+  height: 23px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 189px;
+  height: 56px;
+}
+
+.thrashy :nth-child(4) :nth-child(7) {
+  width: 340px;
+  height: 120px;
+}
+
+.thrashy :nth-child(4) :nth-child(7) * {
+  width: 899px;
+  height: 34px;
+}
+
+.thrashy :nth-child(4) {
+  width: 619px;
+  height: 83px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 881px;
+  height: 192px;
+}
+
+.thrashy :nth-child(4) :nth-child(8) {
+  width: 511px;
+  height: 167px;
+}
+
+.thrashy :nth-child(4) :nth-child(8) * {
+  width: 638px;
+  height: 179px;
+}
+
+.thrashy :nth-child(4) {
+  width: 914px;
+  height: 67px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 986px;
+  height: 116px;
+}
+
+.thrashy :nth-child(4) :nth-child(9) {
+  width: 995px;
+  height: 112px;
+}
+
+.thrashy :nth-child(4) :nth-child(9) * {
+  width: 253px;
+  height: 16px;
+}
+
+.thrashy :nth-child(4) {
+  width: 92px;
+  height: 161px;
+}
+
+.thrashy :nth-child(4) * {
+  width: 802px;
+  height: 60px;
+}
+
+.thrashy :nth-child(4) :nth-child(10) {
+  width: 140px;
+  height: 3px;
+}
+
+.thrashy :nth-child(4) :nth-child(10) * {
+  width: 362px;
+  height: 86px;
+}
+
+.thrashy :nth-child(5) {
+  width: 540px;
+  height: 135px;
+}
+
+.thrashy :nth-child(5) * {
+  width: 963px;
+  height: 100px;
+}
+
+.thrashy :nth-child(5) :nth-child(1) {
+  width: 562px;
+  height: 147px;
+}
+
+.thrashy :nth-child(5) :nth-child(1) * {
+  width: 873px;
+  height: 39px;
+}
+
+.thrashy :nth-child(5) {
+  width: 186px;
+  height: 91px;
+}
+
+.thrashy :nth-child(5) * {
+  width: 222px;
+  height: 128px;
+}
+
+.thrashy :nth-child(5) :nth-child(2) {
+  width: 444px;
+  height: 136px;
+}
+
+.thrashy :nth-child(5) :nth-child(2) * {
+  width: 618px;
+  height: 88px;
+}

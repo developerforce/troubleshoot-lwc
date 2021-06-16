@@ -1,0 +1,26 @@
+.list {
+  border: 1px solid #ddd;
+  height: 80vh;
+  list-style: none;
+  margin: auto;
+  overflow: scroll;
+  padding: 0;
+  width: 50vw;
+}
+
+.list li {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.list li span {
+  padding: 0 40px;
+}
+
+/*
+@media (max-width: 60em) {
+  .list {
+      width: 90vw;
+  }
+}
+*/

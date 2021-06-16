@@ -1,0 +1,15 @@
+<template>
+  <lightning-layout horizontal-align="center" >
+    <lightning-layout-item size="4">
+      <lightning-card>
+        <div class="slds-var-m-left_medium slds-var-m-top_small slds-var-m-bottom_medium ">   
+          <lightning-button variant="destructive" label="Do Something" title="Do Something" onclick={runExpensiveLoop} class="slds-m-left_x-small"></lightning-button>
+          <span class="slds-var-m-left_medium slds-text-body_regular"> {resultExpensiveLoop} </span>
+          <br /><br />
+          <lightning-button variant="brand" label="Do Something Faster" title="Primary action" onclick={runOptimalLoop} class="slds-m-left_x-small"></lightning-button>
+          <span class="slds-var-m-left_medium slds-text-body_regular"> {resultOptimalLoop} </span>
+        </div>
+      </lightning-card>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>

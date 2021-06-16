@@ -1,0 +1,20 @@
+<template>
+  <lightning-layout horizontal-align="center">
+    <lightning-layout-item>
+      <lightning-card>
+        <div class="slds-text-align_center slds-var-m-vertical_large">
+          <h1 class="slds-text-heading_large slds-var-m-bottom_large">
+            Scroll This List!
+          </h1>
+          <ul class="list" onscroll={onScroll}>
+            <template for:each={items} for:item="item">
+              <li key={item.id}>
+                <span></span>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </lightning-card>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>
