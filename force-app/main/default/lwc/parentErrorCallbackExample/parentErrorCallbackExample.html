@@ -1,0 +1,8 @@
+<template>
+    <template if:true={error}>
+        <lightning-formatted-text value="Error Occurred in child component!"></lightning-formatted-text>
+    </template>
+    <template if:false={error}>
+        <c-child-throws-error ></c-child-throws-error>
+    </template>
+</template>

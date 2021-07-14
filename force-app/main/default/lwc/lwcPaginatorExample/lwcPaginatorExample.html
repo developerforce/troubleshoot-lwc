@@ -1,0 +1,17 @@
+<template>
+    <lightning-datatable key-field="id" 
+    data={data} 
+    row-number-offset={rowOffset} 
+    columns={columns} 
+    hide-checkbox-column show-row-number-column>
+    </lightning-datatable>
+
+    <div class="slds-var-m-top_medium slds-var-m-around_x-large">
+        <lightning-button-group>
+            <lightning-button label="First" onclick={handleFirst}></lightning-button>
+            <lightning-button label="Previoust" onclick={handlePrevious}></lightning-button>
+            <lightning-button label="Next" onclick={handleNext}></lightning-button>
+            <lightning-button label="Last" onclick={handleLast}></lightning-button>
+        </lightning-button-group>
+    </div>
+</template>

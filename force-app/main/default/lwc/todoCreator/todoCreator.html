@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Create TO-DO List" icon-name="utility:task">
+        <div class="slds-var-m-around_medium">
+            <lightning-input type="text" label="Things to Do" 
+            field-level-help="Create To-do list" 
+            placeholder="write something here.." 
+            onchange={handleTodoChange}
+            required>
+            </lightning-input>
+        </div>
+        <lightning-button label="Save" value="save" icon-name="utility:save" onclick={handleSave} variant="brand" slot="footer">
+        </lightning-button>
+    </lightning-card>
+</template>

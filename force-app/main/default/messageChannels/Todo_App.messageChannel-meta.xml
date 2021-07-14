@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>To Do App Task Record</masterLabel>
+    <isExposed>true</isExposed>
+    <description>Message Channel to pass the Task Record of todo app</description>
+    <lightningMessageFields>
+        <fieldName>taskId</fieldName>
+        <description>This is the task record Id that changed</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>task</fieldName>
+        <description>This is the description of the task</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>completionDate</fieldName>
+        <description>This is the task compeletion date</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Completed Tasks" icon-name="utility:list">
+        
+        <template for:each={todoList} for:item="todo">
+            <div key={todo.taskId} class="slds-box">
+
+                <div class="slds-var-p-vertical_xx-small">
+                    <p>Task: {todo.task}</p>
+                    <p>Completion Date: <lightning-formatted-date-time year="numeric" month="numeric" day="numeric" hour="2-digit"
+                        minute="2-digit" second="2-digit" time-zone-name="short" hour12="true" value={todo.completionDate} title="Completed On"></lightning-formatted-date-time></p>
+                </div>
+            </div>
+        </template>
+        <template if:true={isEmpty}>
+            <p class="slds-align_absolute-center slds-text-font_monospace">Hurry! You have a lot of things to do</p>
+        </template>
+
+        <div slot="footer">
+            <lightning-badge label="Lightning Message Service Example"></lightning-badge>
+        </div>
+    </lightning-card>
+</template>

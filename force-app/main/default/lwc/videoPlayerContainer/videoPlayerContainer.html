@@ -1,0 +1,12 @@
+<template>
+    <div>
+        <c-video-player video-url={video}></c-video-player>
+        <button onclick={handlePause} 
+        class="slds-button slds-button_brand slds-var-m-top_large">Pause</button>
+        <button onclick={handlePlay} 
+        class="slds-button slds-button_brand slds-var-m-top_large slds-var-m-left_medium">Play</button>
+        <button onclick={handlePlayerCheck} 
+        class="slds-button slds-button_brand slds-var-m-top_large slds-var-m-left_medium">Is Playing?</button>
+        {isPlaying}
+    </div>
+</template>

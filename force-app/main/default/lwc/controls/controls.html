@@ -1,16 +1,29 @@
 <template>
-  <lightning-card title="Controls" icon-name="action:upload">
-    <lightning-button
-      class="slds-m-left_x-small"
-      label={operand}
-      icon-name="utility:dash"
-      onclick={handleSubtract}>
-    </lightning-button>
-    <lightning-button
-      class="slds-m-left_x-small"
-      label={operand}
-      icon-name="utility:add"
-      onclick={handleAdd}>
-    </lightning-button>
-  </lightning-card>
+    <lightning-card>
+        <lightning-layout>
+            <lightning-layout-item padding="around-small" flexibility="auto">
+                <lightning-button label="Subtract" icon-name="utility:dash" onclick={handleSubtract}>
+                </lightning-button>
+            </lightning-layout-item>
+
+            <lightning-layout-item padding="around-small" flexibility="auto" onbuttonclick={handleMultiply} onbuttondivideclick={handleDivision}>
+                
+                <template for:each={factors} for:item="factor">
+                    <c-button key={factor} label={factor} data-factor={factor} icon="utility:close"></c-button>
+                    <c-button key={factor} label={factor} data-factor={factor} icon="utility:dislike"></c-button>
+                </template>
+                <!--
+                <lightning-button label="2" data-factor="2" icon-name="utility:close" onclick={handleMultiply}>
+                </lightning-button>
+                <lightning-button label="3" data-factor="3" icon-name="utility:close" onclick={handleMultiply}>
+                </lightning-button>
+                -->
+            </lightning-layout-item>
+
+            <lightning-layout-item padding="around-small" flexibility="auto">
+                <lightning-button label="Add" icon-name="utility:add" icon-position="right" onclick={handleAdd}>
+                </lightning-button>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
 </template>

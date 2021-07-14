@@ -1,0 +1,6 @@
+<template>
+    <lightning-input type="toggle" label="Toggle Me!" name="toggle1" onchange={handleToggle} data-element="toggle-element"></lightning-input>
+    <template if:true={isTrue}>
+        <lightning-button label="Toggle Checkbox!" variant="brand" onclick={handleButton}></lightning-button>
+    </template>
+</template>

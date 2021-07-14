@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Localization Demo">
+        <p class="slds-var-m-around_medium">
+            Current User Id: {currentUserId}
+        </p>
+        <p class="slds-var-m-around_medium">
+            Current User Locale: {locale}
+        </p>
+        <p class="slds-var-m-around_medium">
+            Current User locate formatted date time: {formattedDate}
+        </p>
+        <p class="slds-var-m-around_medium">
+            Current User locate formatted number: {formattedNumber}
+        </p>
+        <p class="slds-var-m-around_medium">
+            Lightning formatted number: 
+            <lightning-formatted-number value={number} format-style="currency" class="slds-var-m-around_medium" ></lightning-formatted-number>
+        </p>
+    </lightning-card>
+</template>

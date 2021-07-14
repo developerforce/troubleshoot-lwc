@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Custom Permissions Example">
+        <template if:true={hasIsAdminCustomPermission}>
+            <p class="slds-var-m-around_large">Render this element if user has <strong>isAdmin?</strong> custom permission assigned to one of the permission set.</p>
+        </template>
+        <template if:false={hasIsAdminCustomPermission}>
+            <p class="slds-var-m-around_large">Sorry! you don't have isAdmin? custom permission associated</p>
+        </template>
+        <template if:true={isSetupEnabled}>
+            <p class="slds-var-m-around_large">Current User has ViewSetup Permission</p>
+        </template>
+        <template if:false={isSetupEnabled}>
+            <p class="slds-var-m-around_large">Current User doesn't have ViewSetup Permission</p>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Your to-do list" icon-name="utility:thunder">
+        <template for:each={todoList} for:item="todo">
+            <div key={todo.taskId} class="slds-var-m-around_small">
+                <lightning-input type="checkbox" value={todo.isComplete} 
+                label={todo.task} 
+                onchange={handleTaskComplete}
+                data-taskid={todo.taskId}>
+                </lightning-input>
+            </div>
+        </template>
+        <template if:true={isEmpty}>
+            <p class="slds-align_absolute-center slds-text-font_monospace">Relax! You have nothing to do</p>
+        </template>
+    </lightning-card>
+    
+</template>

@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="FOR:EACH Example">
+        <ul class="slds-var-m-around_medium">
+            <template for:each={contacts} for:item="contact">
+                <li class="slds-var-m-around_medium" key={contact.id}>
+                    {contact.lastname}, {contact.firstname}
+                </li>
+            </template>
+        </ul>
+    </lightning-card>
+
+    <lightning-card title="ITERATOR:iteratorName Example">
+        <ul class="slds-var-m-around_medium">
+            <template iterator:anyname={contacts}>
+                <li class="slds-var-m-around_medium" key={anyname.value.id}>
+                    <div if:true={anyname.first} class="first-name-css"></div>
+                    {anyname.index} = {anyname.value.lastname}, {anyname.value.firstname}
+                    <div if:true={anyname.last} class="last-name-css"></div>
+                </li>
+            </template>
+        </ul>
+    </lightning-card>
+</template>
