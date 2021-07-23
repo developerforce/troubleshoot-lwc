@@ -1,13 +1,22 @@
 # troubleshoot-lwc
 Download Components for the Troubleshooting Lightning Web Components Trailhead Badge
 
-## Open VS Code and clone this GitHub repo.
+## Open Visual Studio Code and clone this GitHub repo.
 
-1. In VS Code, open the Command Palette by pressing **Ctrl+Shift+P** (Windows) or **Cmd+Shift+P** (macOS).
+1. In Visual Studio Code, open the Command Palette by pressing **Ctrl+Shift+P** (Windows) or **Cmd+Shift+P** (macOS).
 2. Enter `git`.
 3. Select **Git: Clone**. 
 4. Enter `https://github.com/developerforce/troubleshoot-lwc.git` and press **Enter**.
 5. Select **Desktop** and then click **Select Repository Location**.
+
+## Update Salesforce CLI
+It's always a good idea to update to the latest CLI
+
+1. Click **View**, and then select **Terminal** to open a terminal in Visual Studio Code.
+2. Update the CLI by running this command in the terminal:
+```
+sfdx update
+```
 
 ## Create DX Project
 
