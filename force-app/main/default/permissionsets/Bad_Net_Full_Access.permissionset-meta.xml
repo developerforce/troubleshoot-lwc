@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow full access to the Bad Network app.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Bad Network Full Access</label>
+    <applicationVisibilities>
+        <application>Bad_Network</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <tabSettings>
+        <tab>Example_1_Increase_Number</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Example_2_Count_Clicks</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
