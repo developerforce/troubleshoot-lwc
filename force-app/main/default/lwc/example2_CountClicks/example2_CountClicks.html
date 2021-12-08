@@ -1,0 +1,15 @@
+<template>
+  <lightning-layout horizontal-align="center">
+    <lightning-layout-item size="3">
+        <lightning-card title="I will count your clicks">
+          <lightning-button variant="brand" 
+            class="slds-align_absolute-center slds-var-m-vertical_small"
+            label="Click Me!" 
+            title="Increase Number"
+            onclick={handleClick} 
+            disabled={buttonIsDisabled}></lightning-button>
+          <h2 class="slds-text-heading_medium slds-align_absolute-center" style={clickStyle}>Clicks: {numberOfClicks}</h2>
+        </lightning-card>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>

@@ -1,0 +1,11 @@
+<template>
+  <lightning-layout horizontal-align="center">
+    <lightning-layout-item size="3">
+      <lightning-card title="Increase the number as much as you can:">
+        <h1 class="slds-text-heading_large slds-align_absolute-center">{numberCount}</h1>
+        <lightning-button variant="brand" class="slds-align_absolute-center slds-var-m-vertical_small" label="+1" title="Increase Number" onclick={increaseNum} disabled={buttonIsDisabled}></lightning-button> 
+        <p class="slds-align_absolute-center">{resultWaitTime}</p>
+      </lightning-card>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>
