@@ -42,8 +42,9 @@ Salesforce login opens in a separate browser window.
 
 ## Deploy to Playground
 
-1. Right-click the **default** folder under force-app/main.
-2. Click **SFDX: Deploy Source to Org**.
+1. Change "sourceApiVersion" in sfdx-project.json to "53.0"
+2. Right-click the **default** folder under force-app/main.
+3. Click **SFDX: Deploy Source to Org**.
 
 ## Assign Permission Set
 
