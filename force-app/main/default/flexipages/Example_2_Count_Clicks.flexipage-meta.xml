@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>example2_CountClicks</componentName>
+                <identifier>example2_CountClicks</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

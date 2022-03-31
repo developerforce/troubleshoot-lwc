@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>example2_ScrollList</componentName>
+                <identifier>example2_ScrollList</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

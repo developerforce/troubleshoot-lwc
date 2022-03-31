@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>example1_Loop</componentName>
+                <identifier>example1_Loop</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
