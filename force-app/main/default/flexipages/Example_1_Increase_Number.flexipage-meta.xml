@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>example1_IncreaseNumber</componentName>
+                <identifier>example1_IncreaseNumber</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

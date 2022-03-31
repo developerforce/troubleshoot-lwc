@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>example3_InputFields</componentName>
+                <identifier>example3_InputFields</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

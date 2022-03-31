@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>display</componentName>
+                <identifier>display</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
