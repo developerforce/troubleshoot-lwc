@@ -1,59 +1,18 @@
-# troubleshoot-lwc
-Download Components for the Troubleshooting Lightning Web Components Trailhead Badge
+# Salesforce DX Project: Next Steps
 
-## Open Visual Studio Code and clone this GitHub repo.
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-1. In Visual Studio Code, open the Command Palette by pressing **Ctrl+Shift+P** (Windows) or **Cmd+Shift+P** (macOS).
-2. Enter `git`.
-3. Select **Git: Clone**. 
-4. Enter `https://github.com/developerforce/troubleshoot-lwc.git` and press **Enter**.
-5. Select **Desktop** and then click **Select Repository Location**.
+## How Do You Plan to Deploy Your Changes?
 
-## Update Salesforce CLI
-It's always a good idea to update to the latest CLI
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-1. Click **View**, and then select **Terminal** to open a terminal in Visual Studio Code.
-2. Update the CLI by running this command in the terminal:
-```
-sfdx update
-```
+## Configure Your Salesforce DX Project
 
-## Create DX Project
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-1. Open the Command Palette.
-2. Enter `sfdx`.
-3. Select **SFDX: Create Project**. 
-4. Select **Standard**.
-5. Enter `troubleshoot-lwc` as the project name and press **Enter**.
-6. Select **Desktop** for folder to store the project.
-7. Click **Create Project**.
-8. Click **Overwrite**.
+## Read All About It
 
-## Authorize Your Trailhead Playground
-
-1. Open the Command Palette.
-2. Enter `sfdx`.
-3. Select **SFDX: Authorize an Org**.
-4. Press **Enter** to accept the Project Default login URL option.
-5. Press **Enter** to accept the default alias.
-Salesforce login opens in a separate browser window.
-6. Log in using your Trailhead Playground credentials.
-7. If you're prompted to allow access, click **Allow**.
-
-## Deploy to Playground
-
-1. Right-click the **default** folder under force-app/main.
-2. Click **SFDX: Deploy Source to Org**.
-
-## Assign Permission Set
-
-1. Click **View**, and then select **Terminal**. A terminal window opens in Visual Studio Code. The terminal defaults to the top-level directory of the project.
-2. Assign the Solutions Full Access permission set to the default user by running this command in the terminal:
-```
-sfdx force:user:permset:assign -n Solutions_Full_Access
-```
-
-## View the Solutions App
-
-1. In your Trailhead Playground, in App Launcher, search for `sol`.
-2. Select **Solutions**.
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
