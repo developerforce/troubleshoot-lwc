@@ -43,7 +43,7 @@ Salesforce login opens in a separate browser window.
 ## Deploy to Playground
 
 1. Right-click the **default** folder under force-app/main.
-2. Click **SFDX: Deploy Source to Org**.
+2. Click **SFDX: Deploy This Source to Org**.
 
 ## Assign Permission Set
 
