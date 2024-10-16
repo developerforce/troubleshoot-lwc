@@ -15,7 +15,7 @@ It's always a good idea to update to the latest CLI
 1. Click **View**, and then select **Terminal** to open a terminal in Visual Studio Code.
 2. Update the CLI by running this command in the terminal:
 ```
-sfdx update
+sf update
 ```
 
 ## Create DX Project
@@ -50,7 +50,7 @@ Salesforce login opens in a separate browser window.
 1. Click **View**, and then select **Terminal**. A terminal window opens in Visual Studio Code. The terminal defaults to the top-level directory of the project.
 2. Assign the Solutions Full Access permission set to the default user by running this command in the terminal:
 ```
-sfdx force:user:permset:assign -n Solutions_Full_Access
+sf org assign permset -n Solutions_Full_Access
 ```
 
 ## View the Solutions App
